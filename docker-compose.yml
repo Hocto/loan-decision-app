@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  product-app:
+    image: 'loan-app'
+    build:
+      context: .
+    container_name: loan-app
+    ports:
+      - "8080:8080"
